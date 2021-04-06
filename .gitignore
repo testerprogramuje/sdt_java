@@ -35,6 +35,7 @@
 .idea/*.iml
 .idea/modules
 .idea/*
+target/*
 *.iml
 *.ipr
 
