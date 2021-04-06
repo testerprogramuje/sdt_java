@@ -1,1 +1,1 @@
-"# Szko?a Debugowania Test�w - Java" 
+"# Szkoła Debugowania Testów - Java" 
