@@ -2,8 +2,9 @@ package computer_demo;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
-@AllArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ComputerFactory {
 
     public static Computer getPC(ComputerType computerType) {

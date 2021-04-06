@@ -2,11 +2,12 @@ package stream_demo;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-@AllArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class NumberParser {
 
     public static List<Integer> getEvenNumbersGtnFour(List<Integer> number) {
